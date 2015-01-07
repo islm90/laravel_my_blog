@@ -45,3 +45,6 @@ Route::get('logout','UsersController@logout');
 
 Route::resource('users','UsersController');
 
+
+
+Route::resource('blogs','BlogsController');

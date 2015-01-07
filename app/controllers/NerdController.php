@@ -12,7 +12,7 @@ class NerdController extends \BaseController {
 	public function index()
 	{
 		$nerds =  Nerd::all();
-		#var_dump($nerds);
+		//var_dump($nerds);
 		return View::make('nerds.index')->with('nerds',$nerds);
 	}
 
